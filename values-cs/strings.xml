@@ -2,85 +2,86 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"O. K."</string>
     <string name="yes">"Ano"</string>
     <string name="no">"Ne"</string>
     <string name="back">"Zpět"</string>
-    <string name="cancel">"Zruš."</string>
+    <string name="cancel">"Zruš"</string>
     <string name="week">"Týden"</string>
     <string name="year">"Rok"</string>
     <string name="month">"Měsíc"</string>
-    <string name="off">"Vypnuto"</string>
-    <string name="on">"Na"</string>
+    <string name="off">"Vyp."</string>
+    <string name="on">"Zap.
+"</string>
     <string name="correct">"Správný"</string>
     <string name="login_activity_log_in_title">"Přihlásit se"</string>
     <string name="user">"Uživatel:"</string>
-    <string name="login_activity_logged_in">"Přihlášen"</string>
+    <string name="login_activity_logged_in">"Přihlášeny"</string>
     <string name="main_activity_options_2_log_out">"Odhlásit se"</string>
     <string name="login_activity_log_out">"Odhlásit se"</string>
     <string name="logged_activity_log_out">"Odhlásit se"</string>
-    <string name="user_login_not_logged">"Nepřihlášen"</string>
-    <string name="login_activity_user_list_not_logged">"Nepřihlášen"</string>
-    <string name="settings_change_password_cannot_change_password">"Nelze změnit heslo pro uživatele „Nepřihlášen“."</string>
+    <string name="user_login_not_logged">"Uživatel není přihlášen"</string>
+    <string name="login_activity_user_list_not_logged">"Uživatel není přihlášen"</string>
+    <string name="settings_change_password_cannot_change_password">"Nelze změnit heslo u uživatele "</string>
     <string name="user_login_lineman">"Montér"</string>
     <string name="login_activity_user_list_lineman">"Montér"</string>
-    <string name="user_login_cooperative">"Družstvo"</string>
-    <string name="login_activity_user_list_co_operative">"Družstvo"</string>
+    <string name="user_login_cooperative">"Servisní technik"</string>
+    <string name="login_activity_user_list_co_operative">"Servisní technik"</string>
     <string name="user_login_producer">"Výrobce"</string>
     <string name="login_activity_user_list_producer">"Výrobce"</string>
     <string name="password">"Heslo:"</string>
-    <string name="settings_options_change_password">"Změňte heslo"</string>
+    <string name="settings_options_change_password">"Změnit heslo"</string>
     <string name="logged_activity_passwd_changed">"Heslo bylo změněno."</string>
-    <string name="settings_change_password_new_password">"„Nové heslo“:"</string>
+    <string name="settings_change_password_new_password">"Nové heslo"</string>
     <string name="logged_activity_new_password">"Nové heslo:"</string>
-    <string name="settings_change_password_confirm_new_password">"Opakovat nové heslo:"</string>
-    <string name="logged_activity_repeat_new_password">"Zopakujte nové heslo:"</string>
+    <string name="settings_change_password_confirm_new_password">"Zopakovat nové heslo"</string>
+    <string name="logged_activity_repeat_new_password">"Zopakovat nové heslo:"</string>
     <string name="logged_activity_passwd_not_identical">"Nové heslo nebylo zopakováno."</string>
-    <string name="settings_change_password_change_password">"Změňte heslo."</string>
+    <string name="settings_change_password_change_password">"Změnit heslo."</string>
     <string name="logged_activity_change_password">"Změna hesla"</string>
-    <string name="login_activity_enter_passwd">"Uveďte správné heslo."</string>
+    <string name="login_activity_enter_passwd">"Uvést správné heslo."</string>
     <string name="logged_activity_old_password">"Staré heslo:"</string>
     <string name="login_activity_wrong_passwd">"Nesprávné heslo"</string>
     <string name="logged_activity_old_passwd_wrong">"Nesprávné staré heslo"</string>
     <string name="logged_activity_save_new_password">"Uložit heslo"</string>
     <string name="login_activity_log_in">"Pokračovat"</string>
     <string name="login_activity_turn_off">"Vypnout"</string>
-    <string name="service_mode_activity_control_read_value">"Vypnout násadku"</string>
-    <string name="device_route_activity_removing_errors">"Komunikace s násadkou"</string>
-    <string name="device_faults_device_removed">"Snímek násadky"</string>
-    <string name="device_faults_device_removed_is_running">"Trvá sejmutí násadky"</string>
-    <string name="device_parameter_date_time">"Datum násadky"</string>
-    <string name="service_mode_activity_transmission_device_time">"Datum a čas z násadky"</string>
-    <string name="service_mode_activity_transmission_device_removal_failure_history">"Historie poruchy sejmutí násadky"</string>
-    <string name="service_mode_activity_transmission_device_removal_failure_time">"Doba poruchy sejmutí násadky"</string>
+    <string name="service_mode_activity_control_read_value">"Vypnout modul"</string>
+    <string name="device_route_activity_removing_errors">"Komunikace s modulem"</string>
+    <string name="device_faults_device_removed">"Sundaní modulu"</string>
+    <string name="device_faults_device_removed_is_running">"Trvá sejmutí modulu"</string>
+    <string name="device_parameter_date_time">"Datum modulu"</string>
+    <string name="service_mode_activity_transmission_device_time">"Datum a čas z modulu"</string>
+    <string name="service_mode_activity_transmission_device_removal_failure_history">"Historie sundaní modulu"</string>
+    <string name="service_mode_activity_transmission_device_removal_failure_time">"Datum sundaní modulu"</string>
     <string name="login_activity_licence">"Licence"</string>
     <string name="login_activity_licence_no_licence_file">"Chybí soubor s licencí."</string>
     <string name="login_activity_licence_expired">"Vaše licence vypršela."</string>
     <string name="login_ativity_licence_expires_today">"Vaše licence dnes vyprší."</string>
-    <string name="login_activity_licence_file_cannot_be_read">"Nelze přečíst soubor s licencí."</string>
+    <string name="login_activity_licence_file_cannot_be_read">"Nelze načíst soubor s licencí."</string>
     <string name="login_activity_licence_no_usd_access">"Nelze načíst licenci. Karta SD je nedostupná."</string>
 
     <!-- Main screen -->
     <string name="service_mode_activity_tasks_read">"Odečet"</string>
     <string name="main_activity_options_route">"Odečty"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Odečet objemu"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Odečet objemu [l]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Odečet objemu [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Odečet energie"</string>
-    <string name="device_read_not_read_route_activity_negative_energy_reading">"Negativní odečet energie"</string>
+    <string name="device_read_not_read_route_activity_negative_energy_reading">"Záporný odečet energie"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Odečet energie [GJ]"</string>
     <string name="installment_mode_activity_actions_data_read">"Odečet dat"</string>
     <string name="service_mode_activity_data_read">"Odečet dat"</string>
     <string name="device_read_not_read_route_activity_archive_energy_reading">"Odečet z archivu"</string>
-    <string name="device_read_route_activity_measurement_historical_readings">"Historické četby"</string>
+    <string name="device_read_route_activity_measurement_historical_readings">"Historické odečty"</string>
     <string name="device_route_activity_delete_reading">"Smazat odečet"</string>
     <string name="top_route_activity_clean_data_text">"Smazat odečty"</string>
     <string name="device_route_activity_read_data">"Načíst data"</string>
     <string name="device_read_route_activity_reading_date">"Datum odečtu"</string>
     <string name="choose_route_activity_menu_upload_readings">"Odeslat odečty do Metis"</string>
     <string name="choose_route_activity_menu_upload_success">"Odečty byly odeslány do systému Metis."</string>
-    <string name="service_mode_activity_select_parameters_to_read">"Označte parametry pro odečet."</string>
-    <string name="main_activity_options_installment_mode">"Montáže"</string>
+    <string name="service_mode_activity_select_parameters_to_read">"Označit parametry pro odečet."</string>
+    <string name="main_activity_options_installment_mode">"Montáž"</string>
     <string name="settings_installment_mode_installment_mode">"Montáž"</string>
     <string name="installment_mode">"Montážní režim"</string>
     <string name="main_activity_options_service_mode">"Servis"</string>
@@ -93,41 +94,41 @@
     <string name="param_event_id">"ID události"</string>
     <string name="service_mode_activity_tab_events">"Podrobnosti událostí"</string>
     <string name="device_read_route_activity_events_details">"Podrobnosti událostí"</string>
-    <string name="service_mode_activity_transmission_events_flags">"Příznaky událostí"</string>
-    <string name="service_mode_activity_control_events_reset">"Mazání událostí"</string>
-    <string name="flag_clear_events_flags">"Příznaky vymazání událostí"</string>
-    <string name="flag_clear_events_counter">"Vyčistěte počítadlo událostí"</string>
-    <string name="service_mode_activity_control_register_events_delete">"Registrace mazání událostí"</string>
+    <string name="service_mode_activity_transmission_events_flags">"Událostí alarmů"</string>
+    <string name="service_mode_activity_control_events_reset">"Vymazání události"</string>
+    <string name="flag_clear_events_flags">"Vymazat událostí alarmů"</string>
+    <string name="flag_clear_events_counter">"Vymazat počítadlo událostí"</string>
+    <string name="service_mode_activity_control_register_events_delete">"Registrace vymazání událostí"</string>
     <string name="service_mode_activity_transmission_wmbus_frame_setup_events">"Obsah rámečku (události)"</string>
-    <string name="settings_battery_calculator_activity_wmbus_configuration">"Konfigurace
-wmbus"</string>
-    <string name="device_parameter_cfg_frame_period">"Doba rámečku CFG"</string>
-    <string name="settings_battery_calculator_activity_cfg_frame_period">"Doba rámečku
-cfg"</string>
-    <string name="service_mode_activity_transmission_cfg_frame_period">"Doba rámečku CFG [s]"</string>
+    <string name="settings_battery_calculator_activity_wmbus_configuration">"Konfigurace rámečku
+wMbus"</string>
+    <string name="device_parameter_cfg_frame_period">"Období rámečku CFG"</string>
+    <string name="settings_battery_calculator_activity_cfg_frame_period">"Období rámečku
+CFG"</string>
+    <string name="service_mode_activity_transmission_cfg_frame_period">"Období rámečku CFG [s]"</string>
     <string name="device_parameter_cfg_frame_power">"Výkon rámečku CFG"</string>
-    <string name="service_mode_activity_transmission_cfg_frame_power">"Výkon rámečku CFG"</string>
-    <string name="device_parameter_wmbus_frame_period">"Doba rámečku WMBUS"</string>
-    <string name="settings_battery_calculator_activity_wmbus_frame_period">"Doba rámečku
+    <string name="service_mode_activity_transmission_cfg_frame_power">"Výkon rámce CFG"</string>
+    <string name="device_parameter_wmbus_frame_period">"Období rámce WMBUS"</string>
+    <string name="settings_battery_calculator_activity_wmbus_frame_period">"Období rámce
 wmbus"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_period">"Doba rámečku WMBUS [s]"</string>
-    <string name="device_parameter_wmbus_frame_period_strong">"Silná doba rámečku WMBUS"</string>
-    <string name="device_parameter_wmbus_frame_period_weak">"Slabá doba rámečku WMBUS"</string>
-    <string name="device_parameter_wmbus_frame_power">"Výkon rámečku WMBUS"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_power">"Výkon rámečku WMBUS"</string>
-    <string name="device_parameter_wmbus_frame_setup">"Konfigurace rámečku Wmbus"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_setup">"Obsah rámečku WMBUS"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_setup_registers_mbus">"Nastavení rámu (registruje m-sběrnice)"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_setup_diagnostics">"Obsah rámečku (diagnostika)"</string>
-    <string name="service_mode_activity_transmission_wmbus_frame_setup_registers">"Obsah rámečku (registry)"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_period">"Období rámce WMBUS [s]"</string>
+    <string name="device_parameter_wmbus_frame_period_strong">"Silné období rámce WMBUS"</string>
+    <string name="device_parameter_wmbus_frame_period_weak">"Slabé období rámce WMBUS"</string>
+    <string name="device_parameter_wmbus_frame_power">"Výkon rámu WMBUS"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_power">"Výkon rámce WMBUS"</string>
+    <string name="device_parameter_wmbus_frame_setup">"Konfigurace rámce Wmbus"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_setup">"Obsah rámce WMBUS"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_setup_registers_mbus">"Nastavení rámce (registrace sběrnice)"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_setup_diagnostics">"Obsah rámce (diagnostika)"</string>
+    <string name="service_mode_activity_transmission_wmbus_frame_setup_registers">"Obsah rámce (registry)"</string>
     <string name="device_events_installation_frame">"Instalační rámec"</string>
     <string name="main_activity_options_2_settings">"Nastavení"</string>
 
     <!-- Readings screen -->
-    <string name="place_type_route">"Trasa"</string>
-    <string name="choose_route_activity_title_text">"Zvolte trasu."</string>
-    <string name="choose_route_activity_continue_route">"Pokračovat v trase"</string>
-    <string name="notification_intentservice_message">"Režim trasy je aktivní."</string>
+    <string name="place_type_route">"Plán"</string>
+    <string name="choose_route_activity_title_text">"Zvolte plán."</string>
+    <string name="choose_route_activity_continue_route">"Pokračovat v plánu"</string>
+    <string name="notification_intentservice_message">"Režim plánu je aktivní."</string>
     <string name="choose_route_activity_no_routes_found">"Chybí trasy na kartě uSD."</string>
     <string name="choose_route_activity_no_routes">"Žádné trasy pro tohoto uživatele systému Metis"</string>
     <string name="choose_route_activity_menu_download_routes">"Stáhnout trasy z Metis"</string>
@@ -327,9 +328,9 @@ wmbus"</string>
     <string name="service_mode_activity_tab_volume">"Objem"</string>
     <string name="param_event_volume">"Objem"</string>
     <string name="service_mode_activity_transmission_volume">"Objem"</string>
-    <string name="device_parameter_capccity_monthly">"Měsíční objem"</string>
-    <string name="service_mode_activity_capacity_monthly">"Měsíční objem"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Měsíční objem"</string>
+    <string name="device_parameter_capccity_monthly">"Měsíční objem [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Měsíční objem [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Měsíční objem [m3]"</string>
     <string name="device_parameter_capacity_current">"Okamžitý objem"</string>
     <string name="param_current_volume">"Aktuální hlasitost"</string>
     <string name="service_mode_activity_capacity_current">"Aktuální objem [m3]"</string>
@@ -359,7 +360,7 @@ wmbus"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"Historie objemu z 9 měsíců"</string>
     <string name="service_mode_activity_capacity_volume_history">"Objem z archivu (12 měsíců)"</string>
     <string name="param_volume_saved">"Objem uložený - období"</string>
-    <string name="param_entered_volume">"Zadaná hlasitost"</string>
+    <string name="param_entered_volume">"Zadaná hlasitost [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Resetovat objemy"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Reset objemu"</string>
     <string name="flag_clear_reverse_volume">"Zrušit zpětnou hlasitost"</string>
@@ -555,7 +556,7 @@ wmbus"</string>
     <string name="param_firmware_version">"Verze firmwaru"</string>
     <string name="param_hardware_version">"Verze hardwaru"</string>
     <string name="history_of_changes">"Historie změn"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2014 Apator Powogaz.&lt;br&gt;Provedení: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Provedení: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Reset BOR"</string>
@@ -767,4 +768,15 @@ wmbus"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Uložení parametrů se nezdařilo"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Parametry byly uloženy"</string>
+    <string name="service_mode_activity_save_readings">"Uložte hodnoty"</string>
+    <string name="service_mode_activity_no_data_to_write">"Žádná data k uložení"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Obnovte historické svazky"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Resetovat události"</string>
+    <string name="inkasoid_service_notification">"Žádost o servis pro mobilní aplikaci Inkasoid"</string>
+    <string name="service_mail_header">"Popis problému:
+
+Informace o zařízení:"</string>
+    <string name="send_installation_form">"Poslat žádost"</string>
 </resources>
