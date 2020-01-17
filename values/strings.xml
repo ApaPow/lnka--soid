@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"OK"</string>
     <string name="yes">"Yes"</string>
     <string name="no">"No"</string>
@@ -25,8 +25,8 @@
     <string name="settings_change_password_cannot_change_password">"Password cannot be changed for Data collector user"</string>
     <string name="user_login_lineman">"Installer"</string>
     <string name="login_activity_user_list_lineman">"Installer"</string>
-    <string name="user_login_cooperative">"Administrator"</string>
-    <string name="login_activity_user_list_co_operative">"Administrator"</string>
+    <string name="user_login_cooperative">"Technician"</string>
+    <string name="login_activity_user_list_co_operative">"Technician"</string>
     <string name="user_login_producer">"Manufacturer"</string>
     <string name="login_activity_user_list_producer">"Manufacturer"</string>
     <string name="password">"Password:"</string>
@@ -65,7 +65,7 @@
     <string name="service_mode_activity_tasks_read">"Reading"</string>
     <string name="main_activity_options_route">"Readings"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Volume reading"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Volume reading [L]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Volume reading [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Energy reading"</string>
     <string name="device_read_not_read_route_activity_negative_energy_reading">"Negative energy reading"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Energy reading [GJ]"</string>
@@ -328,9 +328,9 @@ water leakage"</string>
     <string name="service_mode_activity_tab_volume">"Volume"</string>
     <string name="param_event_volume">"Volume"</string>
     <string name="service_mode_activity_transmission_volume">"Volume"</string>
-    <string name="device_parameter_capccity_monthly">"Monthly volume"</string>
-    <string name="service_mode_activity_capacity_monthly">"Monthly volume"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Monthly volume"</string>
+    <string name="device_parameter_capccity_monthly">"Monthly volume [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Monthly volume [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Monthly volume [m3]"</string>
     <string name="device_parameter_capacity_current">"Current volume"</string>
     <string name="param_current_volume">"Current volume"</string>
     <string name="service_mode_activity_capacity_current">"Current volume [m3]"</string>
@@ -360,7 +360,7 @@ water leakage"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"Historical volumes from 9 months"</string>
     <string name="service_mode_activity_capacity_volume_history">"Hostorical volumes (12 months)"</string>
     <string name="param_volume_saved">"Recorded volume - period"</string>
-    <string name="param_entered_volume">"Entered volume"</string>
+    <string name="param_entered_volume">"Entered volume [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Reset volumes"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Reset volumes"</string>
     <string name="flag_clear_reverse_volume">"Delete reverse volume"</string>
@@ -556,7 +556,7 @@ hours in day"</string>
     <string name="param_firmware_version">"Firmware version"</string>
     <string name="param_hardware_version">"Hardware version"</string>
     <string name="history_of_changes">"History of changes"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Wykonanie: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Realization: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Brownout reset"</string>
@@ -768,4 +768,15 @@ hours in day"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Failed to save parameters"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Parameters saved"</string>
+    <string name="service_mode_activity_save_readings">"Save readings"</string>
+    <string name="service_mode_activity_no_data_to_write">"No data to save"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Reset historical volumes"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Reset events"</string>
+    <string name="inkasoid_service_notification">"Service request for Inkasoid mobile application"</string>
+    <string name="service_mail_header">"Description of the problem:
+
+Device information:"</string>
+    <string name="send_installation_form">"Send request"</string>
 </resources>
