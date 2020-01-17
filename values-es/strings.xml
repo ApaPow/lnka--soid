@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"OK"</string>
     <string name="yes">"Sí"</string>
     <string name="no">"No"</string>
@@ -20,13 +20,13 @@
     <string name="main_activity_options_2_log_out">"Cerrar sesión"</string>
     <string name="login_activity_log_out">"Cerrar sesión"</string>
     <string name="logged_activity_log_out">"Cerrar sesión"</string>
-    <string name="user_login_not_logged">"No registrado"</string>
-    <string name="login_activity_user_list_not_logged">"No registrado"</string>
-    <string name="settings_change_password_cannot_change_password">"No se puede cambiar la contraseña para el usuario No registrado"</string>
+    <string name="user_login_not_logged">"Colector de datos"</string>
+    <string name="login_activity_user_list_not_logged">"Colector de datos"</string>
+    <string name="settings_change_password_cannot_change_password">"No se puede cambiar la contraseña para el usuario Colector de datos"</string>
     <string name="user_login_lineman">"Instalador"</string>
     <string name="login_activity_user_list_lineman">"Instalador"</string>
-    <string name="user_login_cooperative">"Comunidad"</string>
-    <string name="login_activity_user_list_co_operative">"Comunidad"</string>
+    <string name="user_login_cooperative">"Técnico"</string>
+    <string name="login_activity_user_list_co_operative">"Técnico"</string>
     <string name="user_login_producer">"Fabricante"</string>
     <string name="login_activity_user_list_producer">"Fabricante"</string>
     <string name="password">"Contraseña:"</string>
@@ -65,7 +65,7 @@
     <string name="service_mode_activity_tasks_read">"Lectura"</string>
     <string name="main_activity_options_route">"Lecturas"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Lectura del volumen"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Lectura del volumen [l]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Lectura del volumen [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Lectura de la energía"</string>
     <string name="device_read_not_read_route_activity_negative_energy_reading">"Lectura de energía negativa"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Lectura de la energía [GJ]"</string>
@@ -328,9 +328,9 @@ wmbus"</string>
     <string name="service_mode_activity_tab_volume">"Volumen"</string>
     <string name="param_event_volume">"Volumen"</string>
     <string name="service_mode_activity_transmission_volume">"Volumen"</string>
-    <string name="device_parameter_capccity_monthly">"Volumen mensual"</string>
-    <string name="service_mode_activity_capacity_monthly">"Volumen mensual"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Volumen mensual"</string>
+    <string name="device_parameter_capccity_monthly">"Volumen mensual [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Volumen mensual [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Volumen mensual [m3]"</string>
     <string name="device_parameter_capacity_current">"Volumen instantáneo"</string>
     <string name="param_current_volume">"Volumen actual"</string>
     <string name="service_mode_activity_capacity_current">"Volumen actual [m3]"</string>
@@ -360,7 +360,7 @@ wmbus"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"Historia de volumen de 9 meses"</string>
     <string name="service_mode_activity_capacity_volume_history">"Volumen del historial (12 meses)"</string>
     <string name="param_volume_saved">"Volumen guardado: período"</string>
-    <string name="param_entered_volume">"Volumen ingresado"</string>
+    <string name="param_entered_volume">"Volumen ingresado [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Restablecer volúmenes"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Restablecer volúmenes"</string>
     <string name="flag_clear_reverse_volume">"Borrar volumen inverso"</string>
@@ -556,7 +556,7 @@ wmbus"</string>
     <string name="param_firmware_version">"Versión del firmware"</string>
     <string name="param_hardware_version">"Versión del hardware"</string>
     <string name="history_of_changes">"Historia de cambios"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2015 Apator Powogaz.&lt;br&gt;Wykonanie: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Ejecución: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Restablecer BOR"</string>
@@ -768,4 +768,15 @@ wmbus"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Error al guardar los parámetros"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Parámetros guardados"</string>
+    <string name="service_mode_activity_save_readings">"Guardar lecturas"</string>
+    <string name="service_mode_activity_no_data_to_write">"No hay datos para guardar"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Restablecer volúmenes históricos"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Restablecer eventos"</string>
+    <string name="inkasoid_service_notification">"Solicitud de servicio para la aplicación móvil Inkasoid"</string>
+    <string name="service_mail_header">"Descripción del problema:
+
+Información del dispositivo:"</string>
+    <string name="send_installation_form">"Enviar petición"</string>
 </resources>
