@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"OK"</string>
     <string name="yes">"Tak"</string>
     <string name="no">"Nie"</string>
@@ -20,13 +20,13 @@
     <string name="main_activity_options_2_log_out">"Wyloguj"</string>
     <string name="login_activity_log_out">"Wyloguj"</string>
     <string name="logged_activity_log_out">"Wyloguj"</string>
-    <string name="user_login_not_logged">"Inkasent"</string>
-    <string name="login_activity_user_list_not_logged">"Inkasent"</string>
-    <string name="settings_change_password_cannot_change_password">"Nie można zmienić hasła dla użytkownika Inkasent"</string>
+    <string name="user_login_not_logged">"Odczytywacz"</string>
+    <string name="login_activity_user_list_not_logged">"Odczytywacz"</string>
+    <string name="settings_change_password_cannot_change_password">"Nie można zmienić hasła dla użytkownika Odczytywacz"</string>
     <string name="user_login_lineman">"Monter"</string>
     <string name="login_activity_user_list_lineman">"Monter"</string>
-    <string name="user_login_cooperative">"Administrator"</string>
-    <string name="login_activity_user_list_co_operative">"Administrator"</string>
+    <string name="user_login_cooperative">"Serwisant"</string>
+    <string name="login_activity_user_list_co_operative">"Serwisant"</string>
     <string name="user_login_producer">"Producent"</string>
     <string name="login_activity_user_list_producer">"Producent"</string>
     <string name="password">"Hasło:"</string>
@@ -65,7 +65,7 @@
     <string name="service_mode_activity_tasks_read">"Odczyt"</string>
     <string name="main_activity_options_route">"Odczyty"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Odczyt objętości"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Odczyt objętości [L]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Odczyt objętości [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Odczyt energii"</string>
     <string name="device_read_not_read_route_activity_negative_energy_reading">"Odczyt energii ujemnej"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Odczyt energii [GJ]"</string>
@@ -328,9 +328,9 @@ wycieku wody"</string>
     <string name="service_mode_activity_tab_volume">"Objętość"</string>
     <string name="param_event_volume">"Objętość"</string>
     <string name="service_mode_activity_transmission_volume">"Objętość"</string>
-    <string name="device_parameter_capccity_monthly">"Objętość miesięczna"</string>
-    <string name="service_mode_activity_capacity_monthly">"Objętość miesięczna"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Objętość miesięczna"</string>
+    <string name="device_parameter_capccity_monthly">"Objętość miesięczna [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Objętość miesięczna [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Objętość miesięczna [m3]"</string>
     <string name="device_parameter_capacity_current">"Objętość aktualna"</string>
     <string name="param_current_volume">"Objętość aktualna"</string>
     <string name="service_mode_activity_capacity_current">"Objętość aktualna [m3]"</string>
@@ -360,7 +360,7 @@ wycieku wody"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"Historia objętości z 9 miesięcy"</string>
     <string name="service_mode_activity_capacity_volume_history">"Objętość z archiwum (12 miesięcy)"</string>
     <string name="param_volume_saved">"Zapisana objętość - okres"</string>
-    <string name="param_entered_volume">"Wprowadzona objętość"</string>
+    <string name="param_entered_volume">"Wprowadzona objętość [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Kasuj objętości"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Kasuj objętości"</string>
     <string name="flag_clear_reverse_volume">"Kasuj objętość wsteczną"</string>
@@ -556,7 +556,7 @@ pracy w dniu"</string>
     <string name="param_firmware_version">"Wersja firmware"</string>
     <string name="param_hardware_version">"Wersja sprzętowa"</string>
     <string name="history_of_changes">"Historia zmian"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2015 Apator Powogaz.&lt;br&gt;Wykonanie: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Wykonanie: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Spadek napięcia reset"</string>
@@ -768,4 +768,15 @@ pracy w dniu"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Nie udało się zapisać parametrów"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Parametry zostały zapisane"</string>
+    <string name="service_mode_activity_save_readings">"Zapisz odczyty"</string>
+    <string name="service_mode_activity_no_data_to_write">"Brak danych do zapisania"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Wyczyść odczyty archiwalne"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Wyczyść zdarzenia"</string>
+    <string name="inkasoid_service_notification">"Zgłoszenie serwisowe aplikacji mobilnej Inkasoid"</string>
+    <string name="service_mail_header">"Opis problemu:
+
+Informacje o urządzeniu:"</string>
+    <string name="send_installation_form">"Wyślij zgłoszenie"</string>
 </resources>
