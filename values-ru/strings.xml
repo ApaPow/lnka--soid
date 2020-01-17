@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"OK"</string>
     <string name="yes">"Да"</string>
     <string name="no">"Нет"</string>
@@ -20,13 +20,13 @@
     <string name="main_activity_options_2_log_out">"Выход"</string>
     <string name="login_activity_log_out">"Выход"</string>
     <string name="logged_activity_log_out">"Выйти"</string>
-    <string name="user_login_not_logged">"Не авторизирован"</string>
-    <string name="login_activity_user_list_not_logged">"Не авторизирован"</string>
-    <string name="settings_change_password_cannot_change_password">"Нельзя изменить пароль для пользователя Не авторизирован"</string>
+    <string name="user_login_not_logged">"Контролер-обходчик"</string>
+    <string name="login_activity_user_list_not_logged">"Контролер-обходчик"</string>
+    <string name="settings_change_password_cannot_change_password">"Нельзя изменить пароль для пользователя Контролер-обходчик"</string>
     <string name="user_login_lineman">"Монтер"</string>
     <string name="login_activity_user_list_lineman">"Монтер"</string>
-    <string name="user_login_cooperative">"Кооператив"</string>
-    <string name="login_activity_user_list_co_operative">"Кооператив"</string>
+    <string name="user_login_cooperative">"Техник"</string>
+    <string name="login_activity_user_list_co_operative">"Техник"</string>
     <string name="user_login_producer">"Производитель"</string>
     <string name="login_activity_user_list_producer">"Производитель"</string>
     <string name="password">"Пароль:"</string>
@@ -65,7 +65,7 @@
     <string name="service_mode_activity_tasks_read">"Считывание"</string>
     <string name="main_activity_options_route">"Показания"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Считывание объема"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Считывание объема [L]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Считывание объема [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Считывание энергии"</string>
     <string name="device_read_not_read_route_activity_negative_energy_reading">"Чтение отрицательной энергии"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Считывание энергии [GJ]"</string>
@@ -328,9 +328,9 @@ wmbus"</string>
     <string name="service_mode_activity_tab_volume">"Объем"</string>
     <string name="param_event_volume">"Объем"</string>
     <string name="service_mode_activity_transmission_volume">"Объем"</string>
-    <string name="device_parameter_capccity_monthly">"Месячный объем"</string>
-    <string name="service_mode_activity_capacity_monthly">"Месячный объем"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Объем месячный"</string>
+    <string name="device_parameter_capccity_monthly">"Месячный объем [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Месячный объем [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Объем месячный [m3]"</string>
     <string name="device_parameter_capacity_current">"Временный объем"</string>
     <string name="param_current_volume">"Текущий объем"</string>
     <string name="service_mode_activity_capacity_current">"Текущий объем [m3]"</string>
@@ -360,7 +360,7 @@ wmbus"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"История объема за 9 месяцев"</string>
     <string name="service_mode_activity_capacity_volume_history">"Объем из архива (12 месяцев)"</string>
     <string name="param_volume_saved">"Сохраненный объем - период"</string>
-    <string name="param_entered_volume">"Введенный объем"</string>
+    <string name="param_entered_volume">"Введенный объем [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Перезагрузить объемы"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Сброс объемов"</string>
     <string name="flag_clear_reverse_volume">"Сбросить обратный объем"</string>
@@ -556,7 +556,7 @@ wmbus"</string>
     <string name="param_firmware_version">"Версия программного обеспечения"</string>
     <string name="param_hardware_version">"Версия аппаратного обеспечения"</string>
     <string name="history_of_changes">"История изменений"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2015 Апатор Повогаз.&lt;br&gt;Исполнение: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Апатор Повогаз.&lt;br&gt;Исполнение: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Перезагрузка BOR"</string>
@@ -768,4 +768,15 @@ wmbus"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Не удалось сохранить параметры"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Параметры сохранены"</string>
+    <string name="service_mode_activity_save_readings">"Сохранить показания"</string>
+    <string name="service_mode_activity_no_data_to_write">"Нет данных для сохранения"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Сбросить исторические показание"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Сбросить события"</string>
+    <string name="inkasoid_service_notification">"Заявление о технической ошибке мобильного приложения Inkasoid"</string>
+    <string name="service_mail_header">"Описание проблемы:
+
+Информация об устройстве:"</string>
+    <string name="send_installation_form">"Отправить заявку"</string>
 </resources>
