@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Login screen -->
-    <string name="app_name">"inkaSOID"</string>
+    <string name="app_name">"Inkasoid"</string>
     <string name="ok">"OK"</string>
     <string name="yes">"Ja"</string>
     <string name="no">"Nein"</string>
@@ -20,13 +20,13 @@
     <string name="main_activity_options_2_log_out">"Ausloggen"</string>
     <string name="login_activity_log_out">"Bitte ausloggen"</string>
     <string name="logged_activity_log_out">"Ausloggen"</string>
-    <string name="user_login_not_logged">"Nicht eingeloggt"</string>
-    <string name="login_activity_user_list_not_logged">"Nicht eingeloggt"</string>
-    <string name="settings_change_password_cannot_change_password">"Das Passwort kann für den Anwender „Nicht eingeloggt” nicht geändert werden."</string>
+    <string name="user_login_not_logged">"Datensammler"</string>
+    <string name="login_activity_user_list_not_logged">"Datensammler"</string>
+    <string name="settings_change_password_cannot_change_password">"Das Passwort kann für den Anwender Datensammler nicht geändert werden."</string>
     <string name="user_login_lineman">"Installateur"</string>
     <string name="login_activity_user_list_lineman">"Installateur"</string>
-    <string name="user_login_cooperative">"Wohnungsbaugenossenschaft"</string>
-    <string name="login_activity_user_list_co_operative">"Wohnungsbaugenossenschaft"</string>
+    <string name="user_login_cooperative">"Servicetechniker"</string>
+    <string name="login_activity_user_list_co_operative">"Servicetechniker"</string>
     <string name="user_login_producer">"Hersteller"</string>
     <string name="login_activity_user_list_producer">"Hersteller"</string>
     <string name="password">"Passwort:"</string>
@@ -65,7 +65,7 @@
     <string name="service_mode_activity_tasks_read">"Ablesen"</string>
     <string name="main_activity_options_route">"Ablesungen"</string>
     <string name="device_read_not_read_route_activity_capacity_reading">"Ablesung Volumen"</string>
-    <string name="device_read_not_read_route_activity_capacity_reading_l">"Ablesung Volumen [l]"</string>
+    <string name="device_read_not_read_route_activity_capacity_reading_l">"Ablesung Volumen [m3]"</string>
     <string name="device_read_not_read_route_activity_energy_reading">"Ablesung Energieverbrauch"</string>
     <string name="device_read_not_read_route_activity_negative_energy_reading">"Negative Energie lesen"</string>
     <string name="device_read_not_read_route_activity_energy_reading_gj">"Ablesung Energieverbrauch [GJ]"</string>
@@ -328,9 +328,9 @@ Wasseraausfluß"</string>
     <string name="service_mode_activity_tab_volume">"Volumen"</string>
     <string name="param_event_volume">"Volumen"</string>
     <string name="service_mode_activity_transmission_volume">"Volumen"</string>
-    <string name="device_parameter_capccity_monthly">"Monatsvolumen"</string>
-    <string name="service_mode_activity_capacity_monthly">"Monatsvolumen"</string>
-    <string name="service_mode_activity_transmission_monthly_volume">"Monatsvolumen"</string>
+    <string name="device_parameter_capccity_monthly">"Monatsvolumen [m3]"</string>
+    <string name="service_mode_activity_capacity_monthly">"Monatsvolumen [m3]"</string>
+    <string name="service_mode_activity_transmission_monthly_volume">"Monatsvolumen [m3]"</string>
     <string name="device_parameter_capacity_current">"Momentanes Volumen"</string>
     <string name="param_current_volume">"Aktuelles Volumen"</string>
     <string name="service_mode_activity_capacity_current">"Aktuelles Volumen [m3]"</string>
@@ -360,7 +360,7 @@ Wasseraausfluß"</string>
     <string name="service_mode_activity_transmission_volume_history_9">"Volumengeschichte 9 Monate"</string>
     <string name="service_mode_activity_capacity_volume_history">"Volumen vom Archiv (12 Monate)"</string>
     <string name="param_volume_saved">"Volumen gespeichert - Zeitraum"</string>
-    <string name="param_entered_volume">"Eingegebene Lautstärke"</string>
+    <string name="param_entered_volume">"Eingegebene Lautstärke [m3]"</string>
     <string name="service_mode_activity_menu_reset_capacity">"Volumenwertre zurücksetzen"</string>
     <string name="installment_mode_activity_actions_capacity_reset">"Volumen zurücksetzen"</string>
     <string name="flag_clear_reverse_volume">"Rückwärtsvolumen löschen"</string>
@@ -556,7 +556,7 @@ Betriebszeit am Tag"</string>
     <string name="param_firmware_version">"Firmware-Version"</string>
     <string name="param_hardware_version">"Hardware-Version"</string>
     <string name="history_of_changes">"Geschichte der Änderungen"</string>
-    <string name="settings_about_activity_copyright_text">"© 2012-2015 Apator Powogaz.&lt;br&gt;Ausführung: NEURE.pl"</string>
+    <string name="settings_about_activity_copyright_text">"© 2012-2018 Apator Powogaz.&lt;br&gt;Ausführung: NEURE.pl"</string>
 
     <!-- Service screen -->
     <string name="device_faults_bor_reset">"Rücksetzen BOR"</string>
@@ -768,4 +768,15 @@ Betriebszeit am Tag"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_250_ms">"250 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_375_ms">"375 ms"</string>
     <string name="service_mode_activity_tresholds_wm_cfg_txt_sampling_period_arr_500_ms">"500 ms"</string>
+    <string name="service_mode_activity_cannot_write_parameters">"Parameter konnten nicht gespeichert werden"</string>
+    <string name="service_mode_activity_parameters_have_been_written">"Parameter gespeichert"</string>
+    <string name="service_mode_activity_save_readings">"Messwerte speichern"</string>
+    <string name="service_mode_activity_no_data_to_write">"Keine Daten zum Speichern"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_historical_volumes">"Historische Volumes zurücksetzen"</string>
+    <string name="service_mode_activity_tresholds_auto_reset_reset_events">"Ereignisse zurücksetzen"</string>
+    <string name="inkasoid_service_notification">"Serviceanfrage für Inkasoid-Mobilanwendung"</string>
+    <string name="service_mail_header">"Beschreibung des Problems:
+
+Geräteinformation:"</string>
+    <string name="send_installation_form">"Anfrage senden"</string>
 </resources>
