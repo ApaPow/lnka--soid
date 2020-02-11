@@ -779,4 +779,17 @@ pracy w dniu"</string>
 
 Informacje o urządzeniu:"</string>
     <string name="send_installation_form">"Wyślij zgłoszenie"</string>
+    <string name="main_activity_options_2_update">"Uaktualnienie aplikacji"</string>
+    <string name="application_update">"Aktualizacja aplikacji"</string>
+    <string name="new_app_version_is_available">"Dostępna jest nowa wersja aplikacji:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Należy ją uaktualnić. Czy rozpocząć pobieranie?"</string>
+    <string name="update_progress">"Postęp aktualizacji"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"Aktualizacja została przerwana. W trosce o poprawne działanie aplikacji zaktualizuj ją następnym razem."</string>
+    <string name="number_of_app_update_cancels">"Liczba pozostałych anulowań aktulizacji"</string>
+    <string name="later">"Później"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"Aktualizacja została przerwana, nie można kontynuować."</string>
+    <string name="must_update_app_to_use_it">"Należy zaktualizować aplikację aby można było z niej korzystać."</string>
+    <string name="close">"Zamknij"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Wystąpił błąd podczas pobierania aktualizacji. Nie można kontynuować."</string>
+    <string name="app_has_been_downloaded_starting_update">"Aplikacja została pobrana. Rozpoczęcie instalacji."</string>
 </resources>
