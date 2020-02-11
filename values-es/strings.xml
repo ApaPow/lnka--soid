@@ -779,4 +779,17 @@ wmbus"</string>
 
 Información del dispositivo:"</string>
     <string name="send_installation_form">"Enviar petición"</string>
+    <string name="main_activity_options_2_update">"Actualización de la aplicación"</string>
+    <string name="application_update">"Actualización de la aplicación"</string>
+    <string name="new_app_version_is_available">"La nueva versión de la aplicación está disponible:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Debería ser actualizado. ¿Quieres comenzar la descarga?"</string>
+    <string name="update_progress">"Progreso de actualización"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"La actualización ha sido cancelada. Por el buen funcionamiento de la aplicación, actualícela la próxima vez."</string>
+    <string name="number_of_app_update_cancels">"Número de cancelaciones de actualizaciones restantes"</string>
+    <string name="later">"Luego"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"La actualización ha sido cancelada, no puede continuar."</string>
+    <string name="must_update_app_to_use_it">"Debe actualizar la aplicación para usarla."</string>
+    <string name="close">"Cerrar"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Se produjo un error al descargar la actualización. Incapaces de proceder."</string>
+    <string name="app_has_been_downloaded_starting_update">"La aplicación ha sido descargada. Comience la instalación."</string>
 </resources>
