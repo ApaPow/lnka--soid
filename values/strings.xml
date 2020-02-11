@@ -779,4 +779,17 @@ hours in day"</string>
 
 Device information:"</string>
     <string name="send_installation_form">"Send request"</string>
+    <string name="main_activity_options_2_update">"Application update"</string>
+    <string name="application_update">"Application update"</string>
+    <string name="new_app_version_is_available">"New version of application is available:"</string>
+    <string name="it_should_be_update_want_to_start_now">"It should be updated. Do you want to start the download?"</string>
+    <string name="update_progress">"Update progress"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"The update has been aborted. For the sake of proper operation of the application, update it next time."</string>
+    <string name="number_of_app_update_cancels">"Number of remaining update cancellations"</string>
+    <string name="later">"Later"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"Update has been aborted, cannot continue."</string>
+    <string name="must_update_app_to_use_it">"You must update the application to use it."</string>
+    <string name="close">"Close"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"An error occurred while downloading the update. Unable to proceed."</string>
+    <string name="app_has_been_downloaded_starting_update">"The application has been downloaded. Begin installation."</string>
 </resources>
