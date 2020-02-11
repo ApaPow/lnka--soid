@@ -779,4 +779,17 @@ Betriebszeit am Tag"</string>
 
 Geräteinformation:"</string>
     <string name="send_installation_form">"Anfrage senden"</string>
+    <string name="main_activity_options_2_update">"Anwendungsaktualisierung"</string>
+    <string name="application_update">"Anwendungsaktualisierung"</string>
+    <string name="new_app_version_is_available">"Neue Version der Anwendung ist verfügbar:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Es sollte aktualisiert werden. Möchten Sie den Download starten?"</string>
+    <string name="update_progress">"Aktualisierungsfortschritt"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"Das Update wurde abgebrochen. Aktualisieren Sie die Anwendung das nächste Mal, um den ordnungsgemäßen Betrieb zu gewährleisten."</string>
+    <string name="number_of_app_update_cancels">"Anzahl verbleibender Aktualisierungsabbrüche"</string>
+    <string name="later">"Später"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"Update wurde abgebrochen, kann nicht fortgesetzt werden."</string>
+    <string name="must_update_app_to_use_it">"Sie müssen die Anwendung aktualisieren, um sie zu verwenden."</string>
+    <string name="close">"Schließen"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Beim Herunterladen des Updates ist ein Fehler aufgetreten. Nicht in der Lage, fortzufahren."</string>
+    <string name="app_has_been_downloaded_starting_update">"Die Anwendung wurde heruntergeladen. Beginnen Sie mit der Installation."</string>
 </resources>
