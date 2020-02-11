@@ -779,4 +779,17 @@ wmbus"</string>
 
 Информация об устройстве:"</string>
     <string name="send_installation_form">"Отправить заявку"</string>
+    <string name="main_activity_options_2_update">"Обновление приложения"</string>
+    <string name="application_update">"Обновление приложения"</string>
+    <string name="new_app_version_is_available">"Доступна новая версия приложения:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Это должно быть обновлено. Вы хотите начать загрузку?"</string>
+    <string name="update_progress">"Обновление прогресса"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"Обновление было прервано. Ради правильной работы приложения обновите его в следующий раз."</string>
+    <string name="number_of_app_update_cancels">"Количество оставшихся обновлений отмены"</string>
+    <string name="later">"Потом"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"Обновление было прервано, продолжение невозможно."</string>
+    <string name="must_update_app_to_use_it">"Вы должны обновить приложение, чтобы использовать его."</string>
+    <string name="close">"Закрыть"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Произошла ошибка при загрузке обновления. Невозможно продолжить."</string>
+    <string name="app_has_been_downloaded_starting_update">"Приложение было загружено. Начните установку."</string>
 </resources>
