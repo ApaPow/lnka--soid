@@ -785,4 +785,17 @@ lavoro al giorno"</string>
 
 Informazioni sul dispositivo:"</string>
     <string name="send_installation_form">"Invia richiesta"</string>
+    <string name="main_activity_options_2_update">"Aggiornamento dell'applicazione"</string>
+    <string name="application_update">"Aggiornamento dell'applicazione"</string>
+    <string name="new_app_version_is_available">"È disponibile una nuova versione dell'applicazione:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Dovrebbe essere aggiornato. Vuoi iniziare il download?"</string>
+    <string name="update_progress">"Avanzamento dell'aggiornamento"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"L'aggiornamento è stato interrotto. Per motivi di corretto funzionamento dell'applicazione, aggiornalo la prossima volta."</string>
+    <string name="number_of_app_update_cancels">"Numero di cancellazioni rimanenti"</string>
+    <string name="later">"più tardi"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"L'aggiornamento è stato interrotto, impossibile continuare."</string>
+    <string name="must_update_app_to_use_it">"È necessario aggiornare l'applicazione"</string>
+    <string name="close">"Chiudi"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Si è verificato un errore durante il download dell'aggiornamento. Impossibile procedere."</string>
+    <string name="app_has_been_downloaded_starting_update">"L'applicazione è stata scaricata. Inizia l'installazione."</string>
 </resources>
