@@ -779,4 +779,17 @@ wmbus"</string>
 
 Informace o zařízení:"</string>
     <string name="send_installation_form">"Poslat žádost"</string>
+    <string name="main_activity_options_2_update">"Aktualizace aplikace"</string>
+    <string name="application_update">"Aktualizace aplikace"</string>
+    <string name="new_app_version_is_available">"K dispozici je nová verze aplikace:"</string>
+    <string name="it_should_be_update_want_to_start_now">"Měl by být aktualizován. Chcete zahájit stahování?"</string>
+    <string name="update_progress">"Aktualizace průběhu"</string>
+    <string name="update_has_been_interrupted_update_it_next_time">"Aktualizace byla přerušena. Pro správnou funkci aplikace ji příště aktualizujte."</string>
+    <string name="number_of_app_update_cancels">"Počet zbývajících zrušení"</string>
+    <string name="later">"později"</string>
+    <string name="app_update_has_been_interrupted_cannot_continue">"Aktualizace byla přerušena, nemůže pokračovat."</string>
+    <string name="must_update_app_to_use_it">"Aby bylo možné aplikaci používat, musíte ji aktualizovat."</string>
+    <string name="close">"Zavřít"</string>
+    <string name="error_occurred_during_app_update_cannot_continue">"Při stahování aktualizace došlo k chybě. Nelze pokračovat."</string>
+    <string name="app_has_been_downloaded_starting_update">"Aplikace byla stažena. Zahajte instalaci."</string>
 </resources>
